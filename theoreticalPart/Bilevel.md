@@ -27,7 +27,9 @@ $$
 \end{aligned}
 $$
 
-The above BLO is also related to datareweighting problem and hyperparameter optimization problem.
+The above BLO is also related to datareweighting problem and hyperparameter optimization problem. Figure1 gives a overall review of BLO problems.
+
+![BLO_overall](../assets/BLO_overall.png "")
 
 
 
