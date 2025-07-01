@@ -12,8 +12,8 @@ Roughly speaking, BLO is a classical optimization that contains two levels of hi
 BLO now has been applied to many differents fields, specially machine learning(ML) and signal processing(SP). For example, the BLO could be formulated as:
 $$
 \begin{aligned}
-\min_{w \in \mathcal{U}}\; &\ell_{\mathrm{val}}\big(\theta^*(w)\bigr) \\
-\text{subject to}\;&\theta^*(w) \;=\; \arg\min_{\theta}\, \ell_{\mathrm{tr}}
+\min_{w \in \mathcal{U}}\;&\ell_{\mathrm{val}}\bigl(\theta^*(w)\bigr) \\
+\text{subject to}\;&\theta^*(w) \;=\;\arg\min_{\theta}\,\ell_{\mathrm{tr}}(\theta, w)\,.
 \end{aligned}
 $$
 
