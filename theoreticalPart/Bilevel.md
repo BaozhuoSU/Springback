@@ -17,15 +17,25 @@ This file shows the basic bilevel optimization theories used in this project bas
 - References
 
 
-## Introduction of BLO
+## I Introduction of BLO
 Roughly speaking, BLO is a classical optimization that contains two levels of hierarchy(_i.e.,_ upper-level and lower level problem), the solution of upper-level problem will depend on the solution of lower-level one. Alternatively, the feasible region of upper-level is restricted by the lower-level.
-BLO now has been applied to many differents fields, specially machine learning(ML) and signal processing(SP). For example, the BLO could be formulated as:
+BLO now has been applied to many differents fields, specially machine learning(ML) and signal processing(SP). For example, the classical BLO problem of _coreset selection_ problem could be formulated as:
 $$
 \begin{aligned}
 \min_{w \in \mathcal{U}}\;&\ell_{\mathrm{val}}\bigl(\theta^*(w)\bigr) \\
 \text{subject to}\;&\theta^*(w) \;=\;\arg\min_{\theta}\,\ell_{\mathrm{tr}}(\theta, w)\,.
 \end{aligned}
 $$
+
+The above BLO is also related to datareweighting problem and hyperparameter optimization problem.
+
+
+
+
+
+
+
+
 
 
 
