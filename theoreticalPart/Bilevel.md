@@ -1,5 +1,4 @@
-
-##Bilevel Optimization
+# Bilevel Optimization
 
 This file shows the basic bilevel optimization theories used in this project, including :
 - Introduction of Bilevel Optimization(BLO) problem
