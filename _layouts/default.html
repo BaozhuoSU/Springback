@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>
+    {%- if page.title -%}
+      {{ page.title }} | {{ site.title }}
+    {%- else -%}
+      {{ site.title }}
+    {%- endif -%}
+  </title>
+
+  {%- if site.stylesheet -%}
+  <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}" />
+  {%- endif -%}
+
+  <!-- MathJax -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header>
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    {%- if site.description -%}
+    <p>{{ site.description }}</p>
+    {%- endif -%}
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <hr />
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+  </footer>
+</body>
+</html>
