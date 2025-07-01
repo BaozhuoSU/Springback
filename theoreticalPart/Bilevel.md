@@ -2,9 +2,11 @@
 layout: default
 title: Bilevel Optimization
 ---
-**Author**：Su Baozhuo, Institut Polytechnique de Paris \\
-**Date**：2025-07-01  \\
-**Copyrights**：© 2025 Su Baozhuo, this file is only for academic purposes \\
+**Author**：Su Baozhuo, Institut Polytechnique de Paris 
+
+**Date**：2025-07-01 
+
+**Copyrights**：© 2025 Su Baozhuo, this file is only for academic purposes 
 
 # Bilevel Optimization
 
