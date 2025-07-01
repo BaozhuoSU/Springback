@@ -16,7 +16,7 @@ $$
 \text{subject to}\;&\theta^*(w) \;=\;\arg\min_{\theta}\,\ell_{\mathrm{tr}}(\theta, w)\,.
 \end{aligned}
 $$
-s s s
+
 
 
 
