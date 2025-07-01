@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bilevel Optimization
+---
+
 # Bilevel Optimization
 
 This file shows the basic bilevel optimization theories used in this project based on the author's own comprehension, including :
